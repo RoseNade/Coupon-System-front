@@ -1,0 +1,8 @@
+.Menu {
+	
+}
+
+.Menu > a {
+    font-size: larger;
+    margin: 7px;
+}

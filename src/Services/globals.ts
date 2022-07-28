@@ -4,12 +4,14 @@ class Globals {
 class DevelopmentGlobals extends Globals {
     public urls = {
         tasks: "http://localhost:8080/api/tasks/",
+        count: "http://localhost:8080/api/tasks/count",
     }
 }
 
 class ProductionGlobals extends Globals {
     public urls = {
-        tasks: "",
+        tasks: "http://localhost:8080/api/tasks/",
+        count: "http://localhost:8080/api/tasks/count",
     }
 }
 

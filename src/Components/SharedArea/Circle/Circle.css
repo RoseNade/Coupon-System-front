@@ -1,0 +1,10 @@
+.Circle {
+	width:75px;
+    height:75px;
+    line-height:75px;
+    border-radius:50%;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    background-color: springgreen;
+}

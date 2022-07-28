@@ -1,0 +1,12 @@
+.About {
+	text-align:center;
+}
+
+.About p {
+    padding: 10px;
+}
+
+.About p:first-letter{
+    color:red;
+    font-size:larger;
+}

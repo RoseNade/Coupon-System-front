@@ -13,3 +13,17 @@ export class TodoModel {
         this.dueDate = dueDate;
     }
 }
+
+// export class TodoPayloadModel {
+//     public caption?: string;
+//     public info?: string;
+//     public classification?: string;
+//     public dueDate?: Date;
+
+//     public constructor(caption: string, info: string, classification: string, dueDate: Date) {
+//         this.caption = caption;
+//         this.info = info;
+//         this.classification = classification;
+//         this.dueDate = dueDate;
+//     }
+// }

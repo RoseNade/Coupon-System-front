@@ -7,7 +7,7 @@ function Footer(): JSX.Element {
         <div className="Footer flex-around">
             <SocialMedia />
 			<h2>All right reserved  &copy; to Tomer Shmueli</h2>
-            <Circle />
+            {/* <TodoTotal /> */}
         </div>
     );
 }

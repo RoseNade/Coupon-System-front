@@ -1,4 +1,6 @@
-html, body, #root{
+html,
+body,
+#root {
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -6,30 +8,93 @@ html, body, #root{
 }
 
 
-.flex-center{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-}
-
-.flex-around{
+.flex-center {
     display: flex;
-    justify-content: space-around;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.flex-top-center{
+/* .flex-row{
     display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
+.flex-around {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-top-center {
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
 
-.flex-row-non-wrap-list{
-    display:flex;
+.flex-row-non-wrap-list {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.link {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+.link:hover {
+    color: #A27B5C;
+    font-weight: 700;
+    /* font-size: xx-large; */
+    text-decoration: none;
+}
+
+.button-fail {
+    transition-duration: 0.4s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: red;
+    font-size: 20px;
+}
+
+.button-fail:hover {
+    background-color: white;
+    /* Green */
+}
+
+.button-success {
+    transition-duration: 0.4s;
+    background-color: green;
+    font-family: serif;
+    margin: 20px;
+    font-size: 24px;
+}
+ז
+.button-success:disabled {
+    transition-duration: 0.4s;
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    cursor:not-allowed;
+}
+
+.button-success:hover {
+    background-color: lightblue;
 }

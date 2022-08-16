@@ -6,3 +6,7 @@
     font-size: larger;
     margin: 7px;
 }
+
+.Menu > b{
+    background-color: red;
+}

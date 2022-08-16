@@ -1,5 +1,5 @@
 import "./Logo.css";
-import task_logo from '../../../Assets/Images/task_logo.svg';
+import task_logo from '../../../Assets/Images/icon.svg';
 
 function Logo(): JSX.Element {
     return (

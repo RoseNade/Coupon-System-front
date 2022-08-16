@@ -4,6 +4,7 @@ import Footer from './Components/LayoutArea/Footer/Footer';
 import Header from './Components/LayoutArea/Header/Header';
 import Main from './Components/LayoutArea/Main/Main';
 import Menu from './Components/LayoutArea/Menu/Menu';
+import SideMenu from './Components/LayoutArea/SideMenu/SideMenu';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Menu />
       <Main />
+      <SideMenu />
       <Footer />
     </div>
   );

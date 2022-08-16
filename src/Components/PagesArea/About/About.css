@@ -4,9 +4,9 @@
 
 .About p {
     padding: 10px;
+    font-size:24px;
 }
 
 .About p:first-letter{
     color:red;
-    font-size:larger;
 }

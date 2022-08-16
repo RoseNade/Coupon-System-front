@@ -3,15 +3,19 @@ class Globals {
 
 class DevelopmentGlobals extends Globals {
     public urls = {
-        tasks: "http://localhost:8080/api/tasks/",
-        count: "http://localhost:8080/api/tasks/count",
+        adminApi: "http://localhost:8080/admin/",
+        companyApi: "http://localhost:8080/company/",
+        customerApi: "http://localhost:8080/customer/",
+        welcomeApi: "http://localhost:8080/welcome/",
     }
 }
 
 class ProductionGlobals extends Globals {
     public urls = {
-        tasks: "http://localhost:8080/api/tasks/",
-        count: "http://localhost:8080/api/tasks/count",
+        adminApi: "http://localhost:8080/admin/",
+        companyApi: "http://localhost:8080/company/",
+        customerApi: "http://localhost:8080/customer/",
+        welcomeApi: "http://localhost:8080/welcome/",
     }
 }
 

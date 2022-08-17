@@ -116,7 +116,7 @@ function AddCoupon(): JSX.Element {
                 <input {...register("image")} type="text" placeholder="Please enter image" name="image" id="image" />
                 <span>{errors.image?.message}</span>
 
-                <button disabled={!isValid}>Add</button>
+                <button disabled={!isValid} className = "button-success">Add</button>
             </form>
         </div >
     );

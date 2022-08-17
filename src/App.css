@@ -11,11 +11,9 @@
 .App > .Header{
     grid-column: 12 span;
     grid-row: 1 span;
-    border: 1px solid #100720;
 }
 
 .App > .SideMenu{
-    border: 1px solid #100720;
     grid-column: 1 span;
     grid-row: 10 span;
     font-size: larger;
@@ -25,18 +23,16 @@
     grid-column: 10 span;
     grid-row: 10 span;
     overflow-y: auto;
-    border: 1px solid #100720;
 }
 
 .App > .Menu{
-    border: 1px solid #100720;
     grid-column: 1 span;
     grid-row: 10 span;
     font-size: larger;
+    border-right: 1px solid;
 }
 
 .App > .Footer{
-    border: 1px solid #100720;
     grid-column: 12 span;
     grid-row: 1 span;
 }

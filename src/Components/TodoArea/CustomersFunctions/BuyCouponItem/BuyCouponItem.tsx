@@ -12,7 +12,6 @@ function BuyCouponItem(props: BuyCouponItemProps): JSX.Element {
     return (
         <div className="BuyCouponItem flex-center">
             <div className="coupon">
-                <img src="https://media2.giphy.com/media/TLayDh2IZOHPW/giphy.gif?cid=ecf05e47iemdy1cz5lxtklhoyafe9vtm17hunmkb7m4btgby&rid=giphy.gif&ct=g" alt={props.coupon.title} />
                 <h1>{props.coupon.title}</h1>
                 <p>{props.coupon.category}</p>
                 <p>Description: {props.coupon.description}</p>

@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 import { ClientType } from "../../../Models/Welcome";
 import AuthMenu from "../../AuthArea/AuthMenu/AuthMenu";
 import store from "../../Redux/Store/Store";
-import CustomLink from "../../RoutingArea/CustomLink/CustomLink";
 import Logo from "../../SharedArea/Logo/Logo";
-import Details from "../../TodoArea/CompaniesFunctions/CompanyDetails/CompanyDetails";
 import "./Header.css";
 
 function Header(): JSX.Element {
@@ -21,7 +19,7 @@ function Header(): JSX.Element {
 
 
     return (
-        <div className="Header flex-around">
+        <div className="Header flex-around-top-bottom">
             <Logo />
             <h1>Coupon System</h1>
             <div>
@@ -32,21 +30,21 @@ function Header(): JSX.Element {
                         {userType === ClientType.COMPANY
                         ?
                         (
-                            <Link to = "/company/details/">Details</Link>
+                            <Link to = "/company/details/" className = "flex-center">Details</Link>
                         )
                         :
                         <>
                         {userType === ClientType.CUSTOMER
                         ?
                         (
-                            <Link to = "/customer/details">Details</Link>
+                            <Link to = "/customer/details" className = "flex-center">Details</Link>
                         )
                         :
                         <>
                         {userType === ClientType.ADMIN
                         ?
                         (
-                            <Link to = "/admin/details">Details</Link>
+                            <Link to = "/admin/details" className = "flex-center">Details</Link>
                         )
                         :
                         <>

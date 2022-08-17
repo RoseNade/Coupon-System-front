@@ -1,20 +1,17 @@
 .BuyCouponItem {
 	display: inline-block;
-    background-color: pink;
+    background-color: 
+    #182734;
     margin: 10px;
-    border: 2px dashed white;
 }
 
-.BuyCouponItem img {
-    width: 100%;
-}
 
 
 .BuyCouponItem span {
     font-size:25px;
 }
 
-.card {
+.BuyCouponItem .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
@@ -22,12 +19,12 @@
     font-family: arial;
 }
 
-.price {
+.BuyCouponItem .price {
     color: grey;
     font-size: 22px;
 }
 
-.card button {
+.BuyCouponItem .card button {
     border: none;
     outline: 0;
     padding: 12px;
@@ -39,7 +36,7 @@
     font-size: 18px;
 }
 
-.card button:hover {
+.BuyCouponItem .card button:hover {
     opacity: 0.7;
 }
 
@@ -49,11 +46,11 @@
     align-items: center;
 }
 
-*/ .coupon .link {
+.BuyCouponItem .coupon .link {
     background-color: aqua;
 }
 
-.coupon {
+.BuyCouponItem .coupon {
     border: 5px dotted #bbb;
     /* Dotted border */
     width: 80%;
@@ -62,22 +59,4 @@
     margin: 0 auto;
     /* Center the coupon */
     max-width: 600px;
-}
-
-.container {
-    padding: 2px 16px;
-    background-color: #f1f1f1;
-}
-
-.promo {
-    background: #ccc;
-    padding: 3px;
-}
-
-.start {
-    color: green;
-}
-
-.expire {
-    color: red;
 }

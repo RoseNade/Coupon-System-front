@@ -132,7 +132,7 @@ function EditCoupon(): JSX.Element {
                 <input {...register("image")} type="text" placeholder="Please enter image" name="image" id="image" />
                 <span>{errors.image?.message}</span>
 
-                <button disabled={!isDirty}>Update</button>
+                <button disabled={!isDirty} className = "button-success">Update</button>
             </form>
         </div>
     );

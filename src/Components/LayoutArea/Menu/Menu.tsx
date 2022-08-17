@@ -15,7 +15,7 @@ function Menu(): JSX.Element {
       }, []);
 
     return (
-        <div className="Menu flex-top-center a">
+        <div className="Menu flex-top-center-menu-main a">
             {isUserLoggedIn === ClientType.COMPANY
 
                 ?

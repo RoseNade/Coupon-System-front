@@ -60,6 +60,7 @@ function Login(): JSX.Element {
   return (
     <div className="Login flex-top-center">
       <h1>Login</h1>
+      <label htmlFor="clientType">Client Type</label>
       <form onSubmit={handleSubmit(loginUser)} className="flex-top-center a">
       <select {...register("clientType")} id="clientType">
           <option value="" disabled={true} selected style={{ color: "black" }}></option>

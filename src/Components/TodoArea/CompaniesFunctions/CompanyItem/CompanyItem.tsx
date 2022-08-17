@@ -7,7 +7,7 @@ interface CompanyItemProps{
 
 function CompanyItem(props: CompanyItemProps): JSX.Element {
     return (
-        <div className="CompanyItem">
+        <div className="CompanyItem flex-top-center">
 			<h1>Company id: {props.company.id}</h1>
 			<h1>Company email: {props.company.email}</h1>
 			<h1>Company name: {props.company.name}</h1>

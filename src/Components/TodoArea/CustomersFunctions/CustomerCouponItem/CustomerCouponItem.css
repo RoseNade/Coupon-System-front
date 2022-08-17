@@ -1,78 +1,38 @@
 .CustomerCouponItem {
-    display: inline-block;
-    background-color: pink;
-    margin: 10px;
-    border: 2px dashed white;
+  display: inline-block;
+  background-color: #242d36;
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+}
+.CustomerCouponItem .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  overflow: hidden;
+  background-color: #1c6e93;
 }
 
-.CustomerCouponItem img {
-    width: 100%;
+.CustomerCouponItem .card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: cyan;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
 }
 
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-}
-
-.price {
-    color: grey;
-    font-size: 22px;
-}
-
-.card button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: cyan;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-}
-
-.card button:hover {
-    opacity: 0.7;
+.CustomerCouponItem .card button:hover {
+  opacity: 0.7;
 }
 
 .CustomerCouponItem h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-*/ .coupon .link {
-    background-color: aqua;
-}
-
-.coupon {
-    border: 5px dotted #bbb;
-    /* Dotted border */
-    width: 80%;
-    border-radius: 15px;
-    /* Rounded border */
-    margin: 0 auto;
-    /* Center the coupon */
-    max-width: 600px;
-}
-
-.container {
-    padding: 2px 16px;
-    background-color: #f1f1f1;
-}
-
-.promo {
-    background: #ccc;
-    padding: 3px;
-}
-
-.start {
-    color: green;
-}
-
-.expire {
-    color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -35,7 +35,7 @@ function DeleteCoupon(): JSX.Element {
 
             <h3>Are you sure you want to delete coupon #{couponId}?</h3>
             <div>
-                <button onClick={deleteCoupon}>YES</button> <button onClick={no}>NO</button>
+                <button onClick={deleteCoupon} className="button-fail">YES</button> <button onClick={no} className="button-success">NO</button>
             </div>
 
         </div>

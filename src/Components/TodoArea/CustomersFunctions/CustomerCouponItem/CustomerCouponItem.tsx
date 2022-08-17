@@ -11,8 +11,7 @@ function CustomerCouponItem(props: CustomerCouponItemProps): JSX.Element {
         <div className="CustomerCouponItem">
             <h2>{props.coupon.title}</h2>
 
-            <div className="coupon">
-                <img src="https://media2.giphy.com/media/TLayDh2IZOHPW/giphy.gif?cid=ecf05e47iemdy1cz5lxtklhoyafe9vtm17hunmkb7m4btgby&rid=giphy.gif&ct=g" alt={props.coupon.title} />
+            <div className="card">
                 <h1>{props.coupon.title}</h1>
                 <p>{props.coupon.category}</p>
                 <p>Description: {props.coupon.description}</p>

@@ -12,10 +12,10 @@ class DevelopmentGlobals extends Globals {
 
 class ProductionGlobals extends Globals {
     public urls = {
-        adminApi: "http://localhost:8080/admin/",
-        companyApi: "http://localhost:8080/company/",
-        customerApi: "http://localhost:8080/customer/",
-        welcomeApi: "http://localhost:8080/welcome/",
+        adminApi: "/admin/",
+        companyApi: "/company/",
+        customerApi: "/customer/",
+        welcomeApi: "/welcome/",
     }
 }
 

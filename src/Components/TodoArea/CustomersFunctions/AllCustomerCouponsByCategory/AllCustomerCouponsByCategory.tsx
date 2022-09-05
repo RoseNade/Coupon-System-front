@@ -10,13 +10,13 @@ import "./AllCustomerCouponsByCategory.css";
 
 function AllCustomerCouponsByCategory(): JSX.Element {
   const getInitialState = () => {
-    const value = "FOOD";
+    const value = "";
     return value;
   };
 
   const [value, setValue] = useState(getInitialState);
   const [coupons, setCoupons] = useState<CouponModel[]>(
-    store.getState().couponsReducer.coupons.filter((c) => c.category === "FOOD")
+    store.getState().couponsReducer.coupons.filter((c) => c.category === value)
   );
   const handleChange = (e: { target: { value: SetStateAction<string> } }) => {
     setValue(e.target.value);
@@ -35,13 +35,13 @@ function AllCustomerCouponsByCategory(): JSX.Element {
         setCoupons(
           store
             .getState()
-            .couponsReducer.coupons.filter((c) => c.category === "FOOD")
+            .couponsReducer.coupons.filter((c) => c.category === value)
         );
         // Update App State (Global State)
         store.dispatch(couponsDownloadedAction(res.data));
       })
       .catch((err) => {
-        notify.error(err.message);
+        notify.error(err);
       });
   }, []);
   

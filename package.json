@@ -1,7 +1,6 @@
 {
   "name": "taas",
   "version": "0.1.0",
-  "homepage": "https://rosenade.github.io/react-gh-pages",
   "private": true,
   "dependencies": {
     "@hookform/resolvers": "^2.9.7",
